@@ -12,8 +12,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
@@ -32,40 +34,93 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-  public void signUpClicked(View view) {
-      EditText usernameEditText = findViewById(R.id.usernameEditText);
-      EditText passwordEditText = findViewById(R.id.passwordEditText);
+    Boolean signUpModeActive = true;
+    TextView loginTextView;
+    EditText usernameEditText;
+    EditText passwordEditText;
 
-      if (usernameEditText.getText().toString() == "" || passwordEditText.getText().toString() == "") {
-          Toast.makeText(this, "A username and password are required", Toast.LENGTH_SHORT).show();
-      } else {
-          ParseUser user = new ParseUser();
-          user.setUsername(usernameEditText.getText().toString());
-          user.setPassword(passwordEditText.getText().toString());
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.loginTextView) {
+            Button signUpButton = findViewById(R.id.signUpButton);
 
-          user.signUpInBackground(new SignUpCallback() {
-              @Override
-              public void done(ParseException e) {
-                  if (e == null) {
-                      // OK
-                      Log.i("Sign Up", "OK");
-                  } else {
-                      Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                      e.printStackTrace();
-                  }
-              }
-          });
-      }
-  }
+            if (signUpModeActive) {
+                signUpModeActive = false;
+                signUpButton.setText("Login");
+                loginTextView.setText(R.string.signup);
+            } else {
+                signUpModeActive = true;
+                signUpButton.setText("Sign Up");
+                loginTextView.setText(R.string.login);
+            }
+        }
+    }
+
+    public void signUpClicked(View view) {
+        usernameEditText = findViewById(R.id.usernameEditText);
+        passwordEditText = findViewById(R.id.passwordEditText);
+
+        if (usernameEditText.getText().toString().matches("")|| passwordEditText.getText().toString().matches("")) {
+            Toast.makeText(this, "A username and password are required", Toast.LENGTH_SHORT).show();
+        } else {
+            if (signUpModeActive == true) {
+                signUp(view);
+            } else {
+                logIn(view);
+            }
+        }
+    }
+
+    public void signUp(View view) {
+        ParseUser user = new ParseUser();
+
+        user.setUsername(usernameEditText.getText().toString());
+        user.setPassword(passwordEditText.getText().toString());
+
+        user.signUpInBackground(new SignUpCallback() {
+            @Override
+            public void done(ParseException e) {
+                if (e == null) {
+                    // OK
+                    Log.i("Sign Up", "OK");
+                } else {
+                    Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+
+        });
+    }
+
+    public void logIn(View view) {
+        ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
+            @Override
+            public void done(ParseUser user, ParseException e) {
+                if (user != null) {
+                    Log.i("Success", "We Logged In");
+                } else {
+                    Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+        loginTextView = findViewById(R.id.loginTextView);
+        loginTextView.setOnClickListener(this);
+
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
+    }
+}
+
 
 //    ParseObject score = new ParseObject("Score");
 //    score.put("username", "Sean");
@@ -205,11 +260,3 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
-    
-    ParseAnalytics.trackAppOpenedInBackground(getIntent());
-  }
-
-}
