@@ -44,7 +44,7 @@
         android:background="@color/cast_expanded_controller_text_color"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/signUpButton"

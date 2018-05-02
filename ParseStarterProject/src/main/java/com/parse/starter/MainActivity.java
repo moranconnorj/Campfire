@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,12 +35,23 @@ import com.parse.SignUpCallback;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener {
 
     Boolean signUpModeActive = true;
     TextView loginTextView;
     EditText usernameEditText;
     EditText passwordEditText;
+
+
+    @Override
+    public boolean onKey(View view, int keyCode, KeyEvent event) {
+
+        if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
+            signUpClicked(view);
+
+        }
+        return false;
+    }
 
     @Override
     public void onClick(View view) {
@@ -59,9 +71,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void signUpClicked(View view) {
-        usernameEditText = findViewById(R.id.usernameEditText);
-        passwordEditText = findViewById(R.id.passwordEditText);
-
         if (usernameEditText.getText().toString().matches("")|| passwordEditText.getText().toString().matches("")) {
             Toast.makeText(this, "A username and password are required", Toast.LENGTH_SHORT).show();
         } else {
@@ -126,8 +135,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        usernameEditText = findViewById(R.id.usernameEditText);
+        passwordEditText = findViewById(R.id.passwordEditText);
+
         loginTextView = findViewById(R.id.loginTextView);
         loginTextView.setOnClickListener(this);
+
+        passwordEditText.setOnKeyListener(this);
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
