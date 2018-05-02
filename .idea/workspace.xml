@@ -110,15 +110,15 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+            <state relative-caret-position="145">
+              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="e#1588#1603#0" expanded="true" />
                 <element signature="e#1755#1769#0" expanded="true" />
-                <element signature="e#2638#3295#0" expanded="true" />
-                <element signature="e#3294#3295#0" expanded="true" />
-                <element signature="e#3454#3858#0" expanded="true" />
-                <element signature="e#3857#3858#0" expanded="true" />
+                <element signature="e#2638#3078#0" expanded="true" />
+                <element signature="e#3077#3078#0" expanded="true" />
+                <element signature="e#3237#3679#0" expanded="true" />
+                <element signature="e#3678#3679#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2041,7 +2041,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525220899499" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525221218892" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2177,7 +2177,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525220899500" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525221218893" />
       </method>
     </configuration>
     <list size="1">
@@ -2336,10 +2336,10 @@
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2378,10 +2378,10 @@
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2420,10 +2420,10 @@
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2454,10 +2454,10 @@
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2496,10 +2496,10 @@
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2615,15 +2615,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        <state relative-caret-position="145">
+          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="e#1588#1603#0" expanded="true" />
             <element signature="e#1755#1769#0" expanded="true" />
-            <element signature="e#2638#3295#0" expanded="true" />
-            <element signature="e#3294#3295#0" expanded="true" />
-            <element signature="e#3454#3858#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
+            <element signature="e#2638#3078#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3237#3679#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
           </folding>
         </state>
       </provider>

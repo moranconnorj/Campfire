@@ -87,11 +87,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (e == null) {
                     // OK
                     Log.i("Sign Up", "OK");
-                    if (ParseUser.getCurrentUser() != null) {
-                        Log.i("Signed In", ParseUser.getCurrentUser().getUsername());
-                    } else {
-                        Log.i("Not Signed In", "Nope");
-                    }
+                    getCurrentUser();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
@@ -106,12 +102,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void done(ParseUser user, ParseException e) {
                 if (user != null) {
                     Log.i("Success", "We Logged In");
+                    getCurrentUser();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
             }
         });
+    }
+
+    public void getCurrentUser() {
+        if (ParseUser.getCurrentUser() != null) {
+            Log.i("Signed In", ParseUser.getCurrentUser().getUsername());
+        } else {
+            Log.i("Not Signed In", "Nope");
+        }
+
     }
 
 
