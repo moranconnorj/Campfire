@@ -135,11 +135,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void getCurrentUser() {
         if (ParseUser.getCurrentUser() != null) {
-            Log.i("Signed In", ParseUser.getCurrentUser().getUsername());
+            Log.i("Signed In Main Activity", ParseUser.getCurrentUser().getUsername());
         } else {
-            Log.i("Not Signed In", "Nope");
+            Log.i("Not Signed In Main Activity", "Nope");
         }
-
     }
 
 
@@ -165,7 +164,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 }
 
- 
+
 //    ParseObject score = new ParseObject("Score");
 //    score.put("username", "Sean");
 //    score.put("score", "65");
