@@ -79,18 +79,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         user.setUsername(usernameEditText.getText().toString());
         user.setPassword(passwordEditText.getText().toString());
 
+//        ParseUser.logOut();
+
         user.signUpInBackground(new SignUpCallback() {
             @Override
             public void done(ParseException e) {
                 if (e == null) {
                     // OK
                     Log.i("Sign Up", "OK");
+                    if (ParseUser.getCurrentUser() != null) {
+                        Log.i("Signed In", ParseUser.getCurrentUser().getUsername());
+                    } else {
+                        Log.i("Not Signed In", "Nope");
+                    }
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
             }
-
         });
     }
 
