@@ -134,6 +134,7 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-9.4.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-26.0.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-identity-9.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.1.0@jar" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-base-9.4.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-crash-9.4.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-vision-9.4.0" level="project" />
@@ -165,6 +166,7 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-iid-9.4.0" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-26.0.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-storage-9.4.0" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-26.0.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-9.4.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-compat-26.0.0" level="project" />

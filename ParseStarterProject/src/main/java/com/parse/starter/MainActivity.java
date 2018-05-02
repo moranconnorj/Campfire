@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText passwordEditText;
 
 
+    public void nextActivity() {
+        Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onKey(View view, int keyCode, KeyEvent event) {
 
@@ -103,6 +108,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     // OK
                     Log.i("Sign Up", "OK");
                     getCurrentUser();
+                    nextActivity();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
@@ -118,6 +124,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (user != null) {
                     Log.i("Success", "We Logged In");
                     getCurrentUser();
+                    nextActivity();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
@@ -144,17 +151,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         usernameEditText = findViewById(R.id.usernameEditText);
         passwordEditText = findViewById(R.id.passwordEditText);
         loginTextView = findViewById(R.id.loginTextView);
-        loginTextView.setOnClickListener(this);
         RelativeLayout backgroundLayout = findViewById(R.id.backgroundLayout);
 
+        loginTextView.setOnClickListener(this);
         passwordEditText.setOnKeyListener(this);
         backgroundLayout.setOnClickListener(this);
+
+        if (ParseUser.getCurrentUser() != null) {
+            nextActivity();
+        }
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 }
 
-
+ 
 //    ParseObject score = new ParseObject("Score");
 //    score.put("username", "Sean");
 //    score.put("score", "65");

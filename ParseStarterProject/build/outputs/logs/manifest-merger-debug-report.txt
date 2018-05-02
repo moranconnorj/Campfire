@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/cfe897c8481691a0966c3ba509aeeeda/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/3db7484018f197a9470113b0bceb40be/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/8afad2dff321155bc9e2057a5f8bbcaa/AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/e41eb14492a5507dbfa8782a78ea2d4d/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/860e51d5555cd8d7e3a9168c0da3b61a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:multidex:1.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/3f78d9ae4a2fb41e68649c453d74f7b0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/6df53b1ccd78fe2224b53ecb0b214d49/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/bb0747d3b8b517dcb7bc6d427be15176/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0f4b8d57d1af080254ba9829997e9315/AndroidManifest.xml:16:1-33:12
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/c728b1f3ede18432dd5b119df8217df7/AndroidManifest.xml:16:1-28:12
@@ -64,20 +65,20 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.0] /Users/cindy/.
 MERGED from [com.android.support:support-core-ui:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0.aar/f60410017c7609a8012404b33830cc29/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0.aar/85e07924f1c1c0a26b6477079fafcd2d/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-compat:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/1b8e59bc7b86396b8a2cc409410512c9/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
 	package
 		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
 		INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
@@ -136,11 +137,11 @@ ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project
 	android:name
 		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-36:19
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:5-33:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/cfe897c8481691a0966c3ba509aeeeda/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/cfe897c8481691a0966c3ba509aeeeda/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/3db7484018f197a9470113b0bceb40be/AndroidManifest.xml:5:5-9:19
@@ -151,6 +152,8 @@ MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/cindy/.gradle/cac
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/e41eb14492a5507dbfa8782a78ea2d4d/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/860e51d5555cd8d7e3a9168c0da3b61a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/860e51d5555cd8d7e3a9168c0da3b61a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/6df53b1ccd78fe2224b53ecb0b214d49/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/6df53b1ccd78fe2224b53ecb0b214d49/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0f4b8d57d1af080254ba9829997e9315/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0f4b8d57d1af080254ba9829997e9315/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/c728b1f3ede18432dd5b119df8217df7/AndroidManifest.xml:27:5-20
@@ -242,31 +245,35 @@ MERGED from [com.android.support:support-vector-drawable:26.0.0] /Users/cindy/.g
 MERGED from [com.android.support:support-compat:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/1b8e59bc7b86396b8a2cc409410512c9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0.aar/1b8e59bc7b86396b8a2cc409410512c9/AndroidManifest.xml:25:5-29:19
 	android:label
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:9-43
 activity#com.parse.starter.MainActivity
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-31:20
 	android:label
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:24:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:17-77
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:27-74
+activity#com.parse.starter.MenuActivity
+ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:32:9-59
+	android:name
+		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:32:19-47
 uses-sdk
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
@@ -283,6 +290,8 @@ MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/cache
 MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/860e51d5555cd8d7e3a9168c0da3b61a/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:multidex:1.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/3f78d9ae4a2fb41e68649c453d74f7b0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:multidex:1.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/3f78d9ae4a2fb41e68649c453d74f7b0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/6df53b1ccd78fe2224b53ecb0b214d49/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/6df53b1ccd78fe2224b53ecb0b214d49/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/bb0747d3b8b517dcb7bc6d427be15176/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/bb0747d3b8b517dcb7bc6d427be15176/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0f4b8d57d1af080254ba9829997e9315/AndroidManifest.xml:23:5-42
