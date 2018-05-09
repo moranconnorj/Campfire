@@ -5,8 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.parse.ParseUser;
+
+import java.util.ArrayList;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -26,5 +30,12 @@ public class MenuActivity extends AppCompatActivity {
         } else {
             Log.i("Not Signed In Second Activity", "Nope");
         }
+
+        ListView listView = findViewById(R.id.listView);
+        ArrayList<String> groupnames = new ArrayList<String>();
+        groupnames.add("Add new group");
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, groupnames);
+        listView.setAdapter(arrayAdapter);
+
     }
 }

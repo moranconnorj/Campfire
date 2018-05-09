@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         user.setUsername(usernameEditText.getText().toString());
         user.setPassword(passwordEditText.getText().toString());
 
-//        ParseUser.logOut();
 
         user.signUpInBackground(new SignUpCallback() {
             @Override
@@ -107,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (e == null) {
                     // OK
                     Log.i("Sign Up", "OK");
-                    getCurrentUser();
+                    getMyUser();
                     nextActivity();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
@@ -123,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void done(ParseUser user, ParseException e) {
                 if (user != null) {
                     Log.i("Success", "We Logged In");
-                    getCurrentUser();
+                    getMyUser();
                     nextActivity();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
@@ -133,11 +132,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
-    public void getCurrentUser() {
+    public void getMyUser() {
         if (ParseUser.getCurrentUser() != null) {
             Log.i("Signed In Main Activity", ParseUser.getCurrentUser().getUsername());
         } else {
-            Log.i("Not Signed In Main Activity", "Nope");
+            Log.i("Not Signed In", "Nope");
         }
     }
 
@@ -158,6 +157,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (ParseUser.getCurrentUser() != null) {
             nextActivity();
+        } else {
+            Log.i("Main Activity", "Not Signed In");
         }
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
