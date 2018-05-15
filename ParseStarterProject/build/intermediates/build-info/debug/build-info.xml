@@ -6,26 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1526418636575"
+    timestamp="1526418928681"
     token="8115246649578564620"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="385" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="1027" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="70" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
@@ -123,8 +123,16 @@
         timestamp="1526418636575"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/builds/debug/1526418636575/classes.dex"
             type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1526418928681"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
