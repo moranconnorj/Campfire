@@ -43,6 +43,22 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
     }
 
+    public void createGroupClicked(String groupName) {
+        if (groupName.length() > 0) { // Group Name Not Blank
+            if (groupExists()) { // Group/User combo already exists in Parse
+                Toast.makeText(MenuActivity.this, "Group Already Exists", Toast.LENGTH_SHORT).show();
+            } else { // Group/User combo DOES NOT exist in parse; create group
+                createGroup();
+            }
+        } else { //Groupname length < 0
+            Toast.makeText(MenuActivity.this, "Group Name Required", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public void existingGroupClicked() {
+        
+    }
+
     public void createGroup() {
         ParseObject group = new ParseObject("Group");
         group.put("groupname", addGroupEditText.getText().toString());
@@ -112,15 +128,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
                     parseQuery(groupName);
-                    if (groupName.length() > 0) { // Group Name Not Blank
-                        if (groupExists()) { // Group/User combo already exists in Parse
-                            Toast.makeText(MenuActivity.this, "Group Already Exists", Toast.LENGTH_SHORT).show();
-                        } else { // Group/User combo DOES NOT exist in parse; create group
-                            createGroup();
-                        }
-                    } else { //Groupname length < 0
-                        Toast.makeText(MenuActivity.this, "Group Name Required", Toast.LENGTH_SHORT).show();
-                    }
+                    createGroupClicked(groupName);
                 } else {
                     Log.i("group selected", groupnames.get(position));
                 }

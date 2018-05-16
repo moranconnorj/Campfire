@@ -2,30 +2,30 @@
 <instant-run
     abi="x86"
     api-level="26"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1526435255650"
+    timestamp="1526435739123"
     token="8115246649578564620"
-    verifier="COMPATIBLE" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="287" />
+        duration="412" />
     <task
         name="instant-run-dex"
-        duration="853" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="44" />
     <task
         name="verifier"
-        duration="6" />
+        duration="4" />
 
     <artifact
-        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
@@ -70,27 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1526434155399"
-        verifier="METHOD_DELETED" >
+        timestamp="1526435739123"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1526434282075"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/builds/debug/1526434282075/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1526435255650"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
