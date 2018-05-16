@@ -25,7 +25,10 @@ import java.util.List;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     EditText addGroupEditText;
-    List<ParseObject> results;
+    List<ParseObject> groupResults;
+    List<ParseObject> userGroupResults;
+    ArrayAdapter arrayAdapter;
+    ArrayList<String> groupnames;
 
     public void hideKeyboard() {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
@@ -56,7 +59,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void existingGroupClicked() {
-        
+
     }
 
     public void createGroup() {
@@ -69,6 +72,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 if (e == null) {
                     // OK
                     Log.i("Success", "We Saved the Group");
+
                 } else {
                     // Group Not Saved
                     e.printStackTrace();
@@ -78,16 +82,28 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public void parseQuery(String groupName) {
+    public void groupParseQuery(String groupName) {
         try {
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
 
             query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
             query.whereEqualTo("groupname", groupName);
 
-            results = query.find();
+            groupResults = query.find();
 
-            for (ParseObject object: results) {
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void userGroupsParseQuery() {
+        try {
+            ParseQuery<ParseObject> userGroupsQuery = ParseQuery.getQuery("Group");
+
+            userGroupsQuery.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+            userGroupResults = userGroupsQuery.find();
+
+            for (ParseObject object: userGroupResults) {
                 Log.i("Username", object.getString("username"));
                 Log.i("Groupname", object.getString("groupname"));
             }
@@ -98,7 +114,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public boolean groupExists() {
-        if (results.isEmpty()) {
+        if (groupResults.isEmpty()) {
             return false;
         } else {
             return true;
@@ -115,10 +131,18 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         constraintLayout.setOnClickListener(this);
 
 
+
+
         ListView listView = findViewById(R.id.listView);
-        final ArrayList<String> groupnames = new ArrayList<String>();
+        groupnames = new ArrayList<String>();
         groupnames.add("Add new group");
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, groupnames);
+
+        userGroupsParseQuery();
+        for (ParseObject object:userGroupResults) {
+            groupnames.add(object.getString("groupname"));
+        }
+
+        arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, groupnames);
         listView.setAdapter(arrayAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -127,7 +151,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 String groupName = addGroupEditText.getText().toString();
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
-                    parseQuery(groupName);
+                    groupParseQuery(groupName);
                     createGroupClicked(groupName);
                 } else {
                     Log.i("group selected", groupnames.get(position));
@@ -137,18 +161,3 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 }
 
-//        query.findInBackground(new FindCallback<ParseObject>() {
-//            @Override
-//            public void done(List<ParseObject> objects, ParseException e) {
-//                if (e == null) {
-//                    if (objects.size() > 0) {
-//                        for (ParseObject object: objects) {
-//                            Log.i("Username", object.getString("username"));
-//                            Log.i("Groupname", object.getString("groupname"));
-//                        }
-//                    } else {
-//                        Log.i("Group", "Doesnt Exist");
-//                    }
-//                }
-//            }
-//        });

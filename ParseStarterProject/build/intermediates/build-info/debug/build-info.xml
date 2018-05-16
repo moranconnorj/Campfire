@@ -2,30 +2,30 @@
 <instant-run
     abi="x86"
     api-level="26"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1526435739123"
+    timestamp="1526437117410"
     token="8115246649578564620"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="412" />
+        duration="219" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="869" />
     <task
         name="instant-run-transform"
-        duration="44" />
+        duration="41" />
     <task
         name="verifier"
-        duration="4" />
+        duration="7" />
 
     <artifact
-        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
+        location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
@@ -70,11 +70,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1526435739123"
-        verifier="METHOD_ADDED" >
+        timestamp="1526437020597"
+        verifier="FIELD_ADDED" >
         <artifact
             location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1526437117410"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
