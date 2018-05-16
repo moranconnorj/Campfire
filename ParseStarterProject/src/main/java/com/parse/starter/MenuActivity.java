@@ -58,14 +58,15 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    public void existingGroupClicked() {
-
+    public void existingGroupClicked(int position) {
+        Log.i("group selected", groupnames.get(position));
     }
 
     public void createGroup() {
         ParseObject group = new ParseObject("Group");
         group.put("groupname", addGroupEditText.getText().toString());
         group.put("username", ParseUser.getCurrentUser().getUsername());
+
         group.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
@@ -121,6 +122,16 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    public void populateList() {
+        userGroupsParseQuery();
+        groupnames.clear();
+        groupnames.add("Add new Group");
+        for (ParseObject object:userGroupResults) {
+            groupnames.add(object.getString("groupname"));
+        }
+        arrayAdapter.notifyDataSetChanged();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -130,20 +141,13 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
         constraintLayout.setOnClickListener(this);
 
-
-
-
         ListView listView = findViewById(R.id.listView);
         groupnames = new ArrayList<String>();
-        groupnames.add("Add new group");
-
-        userGroupsParseQuery();
-        for (ParseObject object:userGroupResults) {
-            groupnames.add(object.getString("groupname"));
-        }
 
         arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, groupnames);
         listView.setAdapter(arrayAdapter);
+
+        populateList();
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -153,11 +157,14 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 if (position == 0) { // Create Group Clicked
                     groupParseQuery(groupName);
                     createGroupClicked(groupName);
+                    userGroupsParseQuery();
+                    populateList();
                 } else {
-                    Log.i("group selected", groupnames.get(position));
+                    existingGroupClicked(position);
                 }
             }
         });
     }
 }
+
 
