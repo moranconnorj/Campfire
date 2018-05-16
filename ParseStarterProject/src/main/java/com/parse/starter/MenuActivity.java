@@ -61,19 +61,24 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
-    public void parseQuery(String groupName) throws ParseException {
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
 
-        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
-        query.whereEqualTo("groupname", groupName);
+    public void parseQuery(String groupName) {
+        try {
+            ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
 
-        results = query.find();
+            query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+            query.whereEqualTo("groupname", groupName);
 
-        for (ParseObject object: results) {
-            Log.i("Username", object.getString("username"));
-            Log.i("Groupname", object.getString("groupname"));
+            results = query.find();
+
+            for (ParseObject object: results) {
+                Log.i("Username", object.getString("username"));
+                Log.i("Groupname", object.getString("groupname"));
+            }
+
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
-
     }
 
     public boolean groupExists() {
@@ -106,11 +111,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 String groupName = addGroupEditText.getText().toString();
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
-                    try {
-                        parseQuery(groupName);
-                    } catch (ParseException e) {
-                        e.printStackTrace();
-                    }
+                    parseQuery(groupName);
                     if (groupName.length() > 0) { // Group Name Not Blank
                         if (groupExists()) { // Group/User combo already exists in Parse
                             Toast.makeText(MenuActivity.this, "Group Already Exists", Toast.LENGTH_SHORT).show();

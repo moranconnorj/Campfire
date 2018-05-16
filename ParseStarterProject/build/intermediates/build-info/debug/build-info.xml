@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1526434282075"
+    timestamp="1526435255650"
     token="8115246649578564620"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="276" />
+        duration="287" />
     <task
         name="instant-run-dex"
-        duration="968" />
+        duration="853" />
     <task
         name="instant-run-transform"
         duration="52" />
     <task
         name="verifier"
-        duration="5" />
+        duration="6" />
 
     <artifact
         location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
@@ -79,6 +79,14 @@
     <build
         build-mode="HOT_WARM"
         timestamp="1526434282075"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/builds/debug/1526434282075/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1526435255650"
         verifier="COMPATIBLE" >
         <artifact
             location="/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
