@@ -25,7 +25,7 @@ import java.util.List;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     EditText addGroupEditText;
-    List<ParseObject> groupResults;
+    List<ParseObject> lookForGroupResults;
     List<ParseObject> userGroupResults;
     ArrayAdapter arrayAdapter;
     ArrayList<String> groupnames;
@@ -83,21 +83,21 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public void groupParseQuery(String groupName) {
+    public void lookForExistingGroupParseQuery(String groupName) {
         try {
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
 
             query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
             query.whereEqualTo("groupname", groupName);
 
-            groupResults = query.find();
+            lookForGroupResults = query.find();
 
         } catch (ParseException e) {
             e.printStackTrace();
         }
     }
 
-    public void userGroupsParseQuery() {
+    public void groupsUserBelongsToParseQuery() {
         try {
             ParseQuery<ParseObject> userGroupsQuery = ParseQuery.getQuery("Group");
 
@@ -115,7 +115,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public boolean groupExists() {
-        if (groupResults.isEmpty()) {
+        if (lookForGroupResults.isEmpty()) {
             return false;
         } else {
             return true;
@@ -123,7 +123,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void populateList() {
-        userGroupsParseQuery();
+        groupsUserBelongsToParseQuery();
         groupnames.clear();
         groupnames.add("Add new Group");
         for (ParseObject object:userGroupResults) {
@@ -155,9 +155,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 String groupName = addGroupEditText.getText().toString();
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
-                    groupParseQuery(groupName);
+                    lookForExistingGroupParseQuery(groupName);
                     createGroupClicked(groupName);
-                    userGroupsParseQuery();
                     populateList();
                 } else {
                     existingGroupClicked(position);
