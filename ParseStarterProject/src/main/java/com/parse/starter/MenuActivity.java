@@ -13,20 +13,29 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     EditText addGroupEditText;
+    List<ParseObject> results;
 
-    public void onClick(View view) {
+    public void hideKeyboard() {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
     }
+
+    public void onClick(View view) {
+        hideKeyboard();
+    }
+
 
     public void logout(View view) {
         ParseUser.logOut();
@@ -52,8 +61,27 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
+    public void parseQuery(String groupName) throws ParseException {
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
+
+        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.whereEqualTo("groupname", groupName);
+
+        results = query.find();
+
+        for (ParseObject object: results) {
+            Log.i("Username", object.getString("username"));
+            Log.i("Groupname", object.getString("groupname"));
+        }
+
+    }
+
     public boolean groupExists() {
-        return true;
+        if (results.isEmpty()) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
@@ -75,8 +103,15 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String groupName = addGroupEditText.getText().toString();
+                hideKeyboard();
                 if (position == 0) { // Create Group Clicked
-                    if (addGroupEditText.getText().length() > 0) { // Group Name Not Blank
+                    try {
+                        parseQuery(groupName);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+                    if (groupName.length() > 0) { // Group Name Not Blank
                         if (groupExists()) { // Group/User combo already exists in Parse
                             Toast.makeText(MenuActivity.this, "Group Already Exists", Toast.LENGTH_SHORT).show();
                         } else { // Group/User combo DOES NOT exist in parse; create group
@@ -92,3 +127,19 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 }
+
+//        query.findInBackground(new FindCallback<ParseObject>() {
+//            @Override
+//            public void done(List<ParseObject> objects, ParseException e) {
+//                if (e == null) {
+//                    if (objects.size() > 0) {
+//                        for (ParseObject object: objects) {
+//                            Log.i("Username", object.getString("username"));
+//                            Log.i("Groupname", object.getString("groupname"));
+//                        }
+//                    } else {
+//                        Log.i("Group", "Doesnt Exist");
+//                    }
+//                }
+//            }
+//        });
