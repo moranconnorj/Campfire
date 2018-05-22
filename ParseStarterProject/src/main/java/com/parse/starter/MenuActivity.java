@@ -26,7 +26,6 @@ import java.util.List;
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     EditText addGroupEditText;
     List<ParseObject> lookForGroupResults;
-    List<ParseObject> userGroupResults;
     ArrayAdapter arrayAdapter;
     ArrayList<String> groupnames;
 
@@ -97,20 +96,16 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    public void groupsUserBelongsToParseQuery() {
+    public List<ParseObject> groupsUserBelongsToParseQuery() {
         try {
             ParseQuery<ParseObject> userGroupsQuery = ParseQuery.getQuery("Group");
 
             userGroupsQuery.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
-            userGroupResults = userGroupsQuery.find();
-
-            for (ParseObject object: userGroupResults) {
-                Log.i("Username", object.getString("username"));
-                Log.i("Groupname", object.getString("groupname"));
-            }
+            return userGroupsQuery.find();
 
         } catch (ParseException e) {
             e.printStackTrace();
+            return new ArrayList<ParseObject>();
         }
     }
 
@@ -126,8 +121,9 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         groupsUserBelongsToParseQuery();
         groupnames.clear();
         groupnames.add("Add new Group");
-        for (ParseObject object:userGroupResults) {
+        for (ParseObject object:groupsUserBelongsToParseQuery()) {
             groupnames.add(object.getString("groupname"));
+            Log.i("Groupname", object.getString("groupname"));
         }
         arrayAdapter.notifyDataSetChanged();
     }
