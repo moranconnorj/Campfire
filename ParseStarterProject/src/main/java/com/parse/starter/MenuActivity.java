@@ -25,7 +25,6 @@ import java.util.List;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     EditText addGroupEditText;
-    List<ParseObject> lookForGroupResults;
     ArrayAdapter arrayAdapter;
     ArrayList<String> groupnames;
 
@@ -47,7 +46,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
     public void createGroupClicked(String groupName) {
         if (groupName.length() > 0) { // Group Name Not Blank
-            if (groupExists()) { // Group/User combo already exists in Parse
+            if (groupExists(groupName)) { // Group/User combo already exists in Parse
                 Toast.makeText(MenuActivity.this, "Group Already Exists", Toast.LENGTH_SHORT).show();
             } else { // Group/User combo DOES NOT exist in parse; create group
                 createGroup();
@@ -82,17 +81,18 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    public void lookForExistingGroupParseQuery(String groupName) {
+    public List<ParseObject> lookForExistingGroupParseQuery(String groupName) {
         try {
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
 
             query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
             query.whereEqualTo("groupname", groupName);
 
-            lookForGroupResults = query.find();
+            return query.find();
 
         } catch (ParseException e) {
             e.printStackTrace();
+            return new ArrayList<ParseObject>();
         }
     }
 
@@ -109,8 +109,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    public boolean groupExists() {
-        if (lookForGroupResults.isEmpty()) {
+    public boolean groupExists(String groupName) {
+        if (lookForExistingGroupParseQuery(groupName).isEmpty()) {
             return false;
         } else {
             return true;
@@ -118,7 +118,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void populateList() {
-        groupsUserBelongsToParseQuery();
         groupnames.clear();
         groupnames.add("Add new Group");
         for (ParseObject object:groupsUserBelongsToParseQuery()) {
@@ -151,7 +150,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 String groupName = addGroupEditText.getText().toString();
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
-                    lookForExistingGroupParseQuery(groupName);
                     createGroupClicked(groupName);
                     populateList();
                 } else {
