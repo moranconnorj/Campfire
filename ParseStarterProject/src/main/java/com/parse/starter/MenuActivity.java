@@ -37,6 +37,12 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         hideKeyboard();
     }
 
+    public void groupActivity(String groupname) {
+        Intent intent = new Intent(getApplicationContext(), GroupActivity.class);
+        intent.putExtra("groupname", groupname);
+        startActivity(intent);
+    }
+
 
     public void logout(View view) {
         ParseUser.logOut();
@@ -58,6 +64,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
     public void existingGroupClicked(int position) {
         Log.i("group selected", groupnames.get(position));
+        String groupname = groupnames.get(position);
+        groupActivity(groupname);
     }
 
     public void createGroup() {
