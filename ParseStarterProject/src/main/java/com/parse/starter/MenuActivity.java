@@ -37,12 +37,11 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         hideKeyboard();
     }
 
-    public void groupActivity(String groupname) {
+    public void groupActivity(String groupID) {
         Intent intent = new Intent(getApplicationContext(), GroupActivity.class);
-        intent.putExtra("groupname", groupname);
+        intent.putExtra("groupID", groupID);
         startActivity(intent);
     }
-
 
     public void logout(View view) {
         ParseUser.logOut();
@@ -63,22 +62,36 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void existingGroupClicked(int position) {
-        Log.i("group selected", groupnames.get(position));
-        String groupname = groupnames.get(position);
-        groupActivity(groupname);
+        List<ParseObject> groups = groupsUserBelongsToParseQuery();
+        ParseObject group = groups.get(position-1);
+
+        Log.i("ParseID", group.get("groupID").toString());
+        String groupID = group.get("groupID").toString();
+        groupActivity(groupID);
     }
 
     public void createGroup() {
-        ParseObject group = new ParseObject("Group");
-        group.put("groupname", addGroupEditText.getText().toString());
-        group.put("username", ParseUser.getCurrentUser().getUsername());
+        ParseObject groupData = new ParseObject("GroupData");
+        groupData.put("admin", ParseUser.getCurrentUser().getUsername());
 
-        group.saveInBackground(new SaveCallback() {
+        try {
+            groupData.save();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        ParseObject groupMembership = new ParseObject("GroupMembership");
+        groupMembership.put("groupname", addGroupEditText.getText().toString());
+        groupMembership.put("username", ParseUser.getCurrentUser().getUsername());
+        groupMembership.put("groupID", groupData.getObjectId());
+
+        groupMembership.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
                 if (e == null) {
                     // OK
                     Log.i("Success", "We Saved the Group");
+                    populateList(); // Waits for Async save to finish to populate list with current groups
 
                 } else {
                     // Group Not Saved
@@ -91,7 +104,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
     public List<ParseObject> lookForExistingGroupParseQuery(String groupName) {
         try {
-            ParseQuery<ParseObject> query = ParseQuery.getQuery("Group");
+            ParseQuery<ParseObject> query = ParseQuery.getQuery("GroupMembership");
 
             query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
             query.whereEqualTo("groupname", groupName);
@@ -106,9 +119,10 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
     public List<ParseObject> groupsUserBelongsToParseQuery() {
         try {
-            ParseQuery<ParseObject> userGroupsQuery = ParseQuery.getQuery("Group");
+            ParseQuery<ParseObject> userGroupsQuery = ParseQuery.getQuery("GroupMembership");
 
             userGroupsQuery.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+
             return userGroupsQuery.find();
 
         } catch (ParseException e) {
@@ -159,7 +173,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
                 hideKeyboard();
                 if (position == 0) { // Create Group Clicked
                     createGroupClicked(groupName);
-                    populateList();
                 } else {
                     existingGroupClicked(position);
                 }
