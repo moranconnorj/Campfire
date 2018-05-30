@@ -531,14 +531,14 @@ public final class R {
         public static final int create_calendar_message = 0x7f0d005a;
         public static final int create_calendar_title = 0x7f0d005b;
         public static final int decline = 0x7f0d005c;
-        public static final int place_autocomplete_clear_button = 0x7f0d006c;
-        public static final int place_autocomplete_search_hint = 0x7f0d006d;
-        public static final int store_picture_message = 0x7f0d0071;
-        public static final int store_picture_title = 0x7f0d0072;
-        public static final int tagmanager_preview_dialog_button = 0x7f0d0073;
-        public static final int tagmanager_preview_dialog_message = 0x7f0d0074;
-        public static final int tagmanager_preview_dialog_title = 0x7f0d0075;
-        public static final int wallet_buy_button_place_holder = 0x7f0d0078;
+        public static final int place_autocomplete_clear_button = 0x7f0d0073;
+        public static final int place_autocomplete_search_hint = 0x7f0d0074;
+        public static final int store_picture_message = 0x7f0d0079;
+        public static final int store_picture_title = 0x7f0d007a;
+        public static final int tagmanager_preview_dialog_button = 0x7f0d007b;
+        public static final int tagmanager_preview_dialog_message = 0x7f0d007c;
+        public static final int tagmanager_preview_dialog_title = 0x7f0d007d;
+        public static final int wallet_buy_button_place_holder = 0x7f0d0080;
     }
     public static final class style {
         public static final int CastExpandedController = 0x7f0e00a4;

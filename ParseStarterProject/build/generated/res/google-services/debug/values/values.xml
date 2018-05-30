@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1045632222158-6cn2d8ivsq6gmdv6beienqpp31ju3pc0.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://campfire-f4d5d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1045632222158</string>
+    <string name="google_api_key" translatable="false">AIzaSyDoyEcy_LmDUK7sQl0CWCGMfCc7yRCoh9Q</string>
+    <string name="google_app_id" translatable="false">1:1045632222158:android:496897f7b68def35</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDoyEcy_LmDUK7sQl0CWCGMfCc7yRCoh9Q</string>
+    <string name="google_storage_bucket" translatable="false">campfire-f4d5d.appspot.com</string>
+    <string name="project_id" translatable="false">campfire-f4d5d</string>
+</resources>

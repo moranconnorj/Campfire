@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1045632222158",
+    "firebase_url": "https://campfire-f4d5d.firebaseio.com",
+    "project_id": "campfire-f4d5d",
+    "storage_bucket": "campfire-f4d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045632222158:android:496897f7b68def35",
+        "android_client_info": {
+          "package_name": "com.parse.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045632222158-6cn2d8ivsq6gmdv6beienqpp31ju3pc0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1045632222158-6cn2d8ivsq6gmdv6beienqpp31ju3pc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoyEcy_LmDUK7sQl0CWCGMfCc7yRCoh9Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

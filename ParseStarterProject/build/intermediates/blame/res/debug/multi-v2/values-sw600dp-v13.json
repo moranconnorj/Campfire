@@ -4,7 +4,7 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/860e51d5555cd8d7e3a9168c0da3b61a/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/269e92ab96cfabdd71ba36504b9385bb/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/e41eb14492a5507dbfa8782a78ea2d4d/res/values-sw600dp/values-sw600dp.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/5564ad7a118dbc197bab201d37c9a103/res/values-sw600dp/values-sw600dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
