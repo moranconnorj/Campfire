@@ -17,11 +17,22 @@
 
     <TextView
         android:id="@+id/groupNameTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="73dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:text="groupTextView"
-        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="16dp"
         tools:text="groupName" />
+
+    <Button
+        android:id="@+id/inviteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:text="Invite to Group"
+        app:layout_constraintStart_toEndOf="@+id/toMapButton"
+        app:layout_constraintTop_toBottomOf="@+id/groupNameTextView" />
 
 </android.support.constraint.ConstraintLayout>

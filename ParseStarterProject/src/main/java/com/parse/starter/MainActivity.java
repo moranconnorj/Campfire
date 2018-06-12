@@ -21,6 +21,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
@@ -93,11 +94,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+
     public void signUp(View view) {
         ParseUser user = new ParseUser();
+        String token = FirebaseInstanceId.getInstance().getToken();
 
         user.setUsername(usernameEditText.getText().toString());
         user.setPassword(passwordEditText.getText().toString());
+        user.put("token", token);
 
 
         user.signUpInBackground(new SignUpCallback() {
@@ -120,9 +124,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
             @Override
             public void done(ParseUser user, ParseException e) {
+                String token = FirebaseInstanceId.getInstance().getToken();
                 if (user != null) {
                     Log.i("Success", "We Logged In");
+                    Log.i("Token", token);
                     getMyUser();
+                    user.put("token", token);
+                    try {
+                        user.save();
+                    } catch (ParseException e1) {
+                        e1.printStackTrace();
+                    }
                     nextActivity();
                 } else {
                     Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();

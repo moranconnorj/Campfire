@@ -4,12 +4,12 @@
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.0.0.aar/2230c13924f7681cce138564bcd77056/res/drawable-xxhdpi-v4/ic_mr_button_connecting_05_light.png"
     },
     {
-        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_mr_ic_pause_dark.xml.flat",
-        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/5564ad7a118dbc197bab201d37c9a103/res/drawable/mr_ic_pause_dark.xml"
-    },
-    {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_common_plus_signin_btn_icon_dark.xml.flat",
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/82978be0a92fe3750071173ff43b9a32/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable_mr_ic_pause_dark.xml.flat",
+        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/5564ad7a118dbc197bab201d37c9a103/res/drawable/mr_ic_pause_dark.xml"
     },
     {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/layout_ua_iam_fullscreen_header_body_media.xml.flat",
@@ -24,28 +24,28 @@
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/82978be0a92fe3750071173ff43b9a32/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_text_dark_normal.9.png.flat",
-        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/82978be0a92fe3750071173ff43b9a32/res/drawable-tvdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connecting_02_light.png.flat",
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.0.0.aar/2230c13924f7681cce138564bcd77056/res/drawable-xxhdpi-v4/ic_mr_button_connecting_02_light.png"
+    },
+    {
+        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_text_dark_normal.9.png.flat",
+        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/82978be0a92fe3750071173ff43b9a32/res/drawable-tvdpi-v4/common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_mr_button_connecting_08_light.png.flat",
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.0.0.aar/2230c13924f7681cce138564bcd77056/res/drawable-xxhdpi-v4/ic_mr_button_connecting_08_light.png"
     },
     {
-        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/269e92ab96cfabdd71ba36504b9385bb/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_media_play_light.png.flat",
+        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.0.0.aar/2230c13924f7681cce138564bcd77056/res/drawable-hdpi-v4/ic_media_play_light.png"
     },
     {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_ua_ic_notification_button_download.png.flat",
         "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/urbanairship-core-9.1.0.aar/4771f25d13092cae85d5234925df0aa5/res/drawable-mdpi-v4/ua_ic_notification_button_download.png"
     },
     {
-        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_media_play_light.png.flat",
-        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.0.0.aar/2230c13924f7681cce138564bcd77056/res/drawable-hdpi-v4/ic_media_play_light.png"
+        "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/269e92ab96cfabdd71ba36504b9385bb/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_group_expand_07.png.flat",

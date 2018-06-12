@@ -1034,28 +1034,6 @@
             ]
         },
         {
-            "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/values-eu-rES_values-eu-rES.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/5564ad7a118dbc197bab201d37c9a103/res/values-eu-rES/values-eu-rES.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,389,498,603,710,834,932,1035,1162,1267,1354",
-                        "endColumns": "106,108,104,106,123,97,102,126,104,86,93",
-                        "endOffsets": "384,493,598,705,829,927,1030,1157,1262,1349,1443"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,162,271,376,483,607,705,808,935,1040,1127",
-                        "endColumns": "106,108,104,106,123,97,102,126,104,86,93",
-                        "endOffsets": "157,266,371,478,602,700,803,930,1035,1122,1216"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat",
             "map": [
                 {
@@ -1192,6 +1170,28 @@
                         "startOffsets": "2072,2170,2268,2391,2473,2592,2695,2785,2901,3030,3138,3582,3668,3742,3827,3938,4062,4161,4258,4360,4433,4539,4638,4739,4891,5031,5170,5306,5402,5500,5614",
                         "endColumns": "97,97,122,81,118,102,89,115,128,107,75,85,73,84,110,123,98,96,101,72,105,98,100,151,139,138,135,95,97,113,83",
                         "endOffsets": "2165,2263,2386,2468,2587,2690,2780,2896,3025,3133,3209,3663,3737,3822,3933,4057,4156,4253,4355,4428,4534,4633,4734,4886,5026,5165,5301,5397,5495,5609,5693"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/values-eu-rES_values-eu-rES.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/5564ad7a118dbc197bab201d37c9a103/res/values-eu-rES/values-eu-rES.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,389,498,603,710,834,932,1035,1162,1267,1354",
+                        "endColumns": "106,108,104,106,123,97,102,126,104,86,93",
+                        "endOffsets": "384,493,598,705,829,927,1030,1157,1262,1349,1443"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,271,376,483,607,705,808,935,1040,1127",
+                        "endColumns": "106,108,104,106,123,97,102,126,104,86,93",
+                        "endOffsets": "157,266,371,478,602,700,803,930,1035,1122,1216"
                     }
                 }
             ]
