@@ -4,6 +4,7 @@ ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-47:12
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-47:12
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-47:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/71188f2c16bf9e25b0ca79fab6873de2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/a8017d10335ecae059ca829859f18ddb/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/26f25aefa795ae826316573d69bd9932/AndroidManifest.xml:16:1-20:12
@@ -12,7 +13,6 @@ MERGED from [com.android.support:appcompat-v7:26.0.0] /Users/cindy/.gradle/cache
 MERGED from [com.android.support:multidex:1.0.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/c16d6f2c35c5046623d594bd8ba5f7c7/AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.firebase:firebase-core:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-core-9.4.0.aar/8b348167f5a227a5515d2b9a5e4a68a7/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ed02c3fda96a129ae8b259a93c932150/AndroidManifest.xml:16:1-33:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/e012ba8ffc1d059060b9ca9156b1ade5/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0addef1a9de0e8b93067a0c80632a976/AndroidManifest.xml:16:1-33:12
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/c614d8dc4796bce4204bdea32a4ae9a2/AndroidManifest.xml:16:1-28:12
@@ -143,6 +143,8 @@ ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project
 		ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
 ADDED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:17:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/71188f2c16bf9e25b0ca79fab6873de2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/71188f2c16bf9e25b0ca79fab6873de2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/a8017d10335ecae059ca829859f18ddb/AndroidManifest.xml:5:5-9:19
@@ -157,8 +159,6 @@ MERGED from [com.google.firebase:firebase-core:9.4.0] /Users/cindy/.gradle/cache
 MERGED from [com.google.firebase:firebase-core:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-core-9.4.0.aar/8b348167f5a227a5515d2b9a5e4a68a7/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ed02c3fda96a129ae8b259a93c932150/AndroidManifest.xml:20:5-32:19
 MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ed02c3fda96a129ae8b259a93c932150/AndroidManifest.xml:20:5-32:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0addef1a9de0e8b93067a0c80632a976/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0addef1a9de0e8b93067a0c80632a976/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/c614d8dc4796bce4204bdea32a4ae9a2/AndroidManifest.xml:27:5-20
@@ -305,6 +305,8 @@ uses-sdk
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
 INJECTED from /Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/71188f2c16bf9e25b0ca79fab6873de2/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/71188f2c16bf9e25b0ca79fab6873de2/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/a8017d10335ecae059ca829859f18ddb/AndroidManifest.xml:4:5-42
@@ -321,8 +323,6 @@ MERGED from [com.google.firebase:firebase-core:9.4.0] /Users/cindy/.gradle/cache
 MERGED from [com.google.firebase:firebase-core:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-core-9.4.0.aar/8b348167f5a227a5515d2b9a5e4a68a7/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ed02c3fda96a129ae8b259a93c932150/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ed02c3fda96a129ae8b259a93c932150/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/a118525126ef392ddbeb2f3f871c0058/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/e012ba8ffc1d059060b9ca9156b1ade5/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/e012ba8ffc1d059060b9ca9156b1ade5/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/0addef1a9de0e8b93067a0c80632a976/AndroidManifest.xml:23:5-42
