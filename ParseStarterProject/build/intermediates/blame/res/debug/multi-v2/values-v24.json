@@ -4,7 +4,7 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/a02e4e23dba6b04945fa45b898bb360e/res/values-v24/values-v24.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/27f9e1de38d08faf1c148292864e8270/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/a3106be91ebacc0eba2f7bdc6627e50f/res/values-v24/values-v24.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0.aar/8a8971d2a6fd153d05c7fa200b376229/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

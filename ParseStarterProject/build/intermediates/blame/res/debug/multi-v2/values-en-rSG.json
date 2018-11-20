@@ -4,7 +4,7 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/44b758184ce3606adcaa467bf54bdd1a/res/values-en-rSG/values.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/b7bb4c35ea979cacad91b06571e637e1/res/values-en-rSG/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

@@ -884,6 +884,7 @@ drawable common_plus_signin_btn_text_light_disabled
 drawable common_plus_signin_btn_text_light_focused
 drawable common_plus_signin_btn_text_light_normal
 drawable common_plus_signin_btn_text_light_pressed
+drawable edittext
 drawable fire
 drawable ic_cast_dark
 drawable ic_cast_disabled_light

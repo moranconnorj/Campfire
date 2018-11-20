@@ -22,29 +22,31 @@
     <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
+        android:minHeight="40dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:layout_marginTop="50dp"
-        android:background="@color/cast_expanded_controller_text_color"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
         android:ems="10"
-        android:hint="Username"
+        android:hint=" Username"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
+        android:minHeight="40dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/usernameEditText"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="49dp"
-        android:background="@color/cast_expanded_controller_text_color"
+        android:background="@drawable/edittext"
         android:ems="10"
-        android:hint="Password"
+        android:hint=" Password"
         android:inputType="textPassword" />
 
     <Button
