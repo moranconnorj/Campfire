@@ -466,19 +466,19 @@ public final class R {
         public static final int ic_play_light = 0x7f0700bf;
         public static final int ic_setting_dark = 0x7f0700c4;
         public static final int ic_setting_light = 0x7f0700c5;
-        public static final int mr_ic_cast_dark = 0x7f0700c6;
-        public static final int mr_ic_cast_light = 0x7f0700c7;
-        public static final int mr_ic_media_route_connecting_mono_dark = 0x7f0700c8;
-        public static final int mr_ic_media_route_connecting_mono_light = 0x7f0700c9;
-        public static final int mr_ic_media_route_mono_dark = 0x7f0700ca;
-        public static final int mr_ic_media_route_mono_light = 0x7f0700cb;
-        public static final int mr_ic_pause_dark = 0x7f0700cc;
-        public static final int mr_ic_pause_light = 0x7f0700cd;
-        public static final int mr_ic_play_dark = 0x7f0700ce;
-        public static final int mr_ic_play_light = 0x7f0700cf;
-        public static final int mr_ic_settings_dark = 0x7f0700d0;
-        public static final int mr_ic_settings_light = 0x7f0700d1;
-        public static final int notification_template_icon_bg = 0x7f0700da;
+        public static final int mr_ic_cast_dark = 0x7f0700c7;
+        public static final int mr_ic_cast_light = 0x7f0700c8;
+        public static final int mr_ic_media_route_connecting_mono_dark = 0x7f0700c9;
+        public static final int mr_ic_media_route_connecting_mono_light = 0x7f0700ca;
+        public static final int mr_ic_media_route_mono_dark = 0x7f0700cb;
+        public static final int mr_ic_media_route_mono_light = 0x7f0700cc;
+        public static final int mr_ic_pause_dark = 0x7f0700cd;
+        public static final int mr_ic_pause_light = 0x7f0700ce;
+        public static final int mr_ic_play_dark = 0x7f0700cf;
+        public static final int mr_ic_play_light = 0x7f0700d0;
+        public static final int mr_ic_settings_dark = 0x7f0700d1;
+        public static final int mr_ic_settings_light = 0x7f0700d2;
+        public static final int notification_template_icon_bg = 0x7f0700db;
     }
     public static final class id {
         private id() {}
@@ -658,18 +658,18 @@ public final class R {
         public static final int abc_shareactionprovider_share_with = 0x7f0d001c;
         public static final int abc_shareactionprovider_share_with_application = 0x7f0d001d;
         public static final int abc_toolbar_collapse_description = 0x7f0d001e;
-        public static final int mr_media_route_button_content_description = 0x7f0d0066;
-        public static final int mr_media_route_chooser_searching = 0x7f0d0067;
-        public static final int mr_media_route_chooser_title = 0x7f0d0068;
-        public static final int mr_media_route_controller_disconnect = 0x7f0d0069;
-        public static final int mr_media_route_controller_no_info_available = 0x7f0d006a;
-        public static final int mr_media_route_controller_pause = 0x7f0d006b;
-        public static final int mr_media_route_controller_play = 0x7f0d006c;
-        public static final int mr_media_route_controller_settings_description = 0x7f0d006d;
-        public static final int mr_media_route_controller_stop = 0x7f0d006e;
-        public static final int mr_system_route_name = 0x7f0d006f;
-        public static final int mr_user_route_category_name = 0x7f0d0070;
-        public static final int status_bar_notification_info_overflow = 0x7f0d0078;
+        public static final int mr_media_route_button_content_description = 0x7f0d0068;
+        public static final int mr_media_route_chooser_searching = 0x7f0d0069;
+        public static final int mr_media_route_chooser_title = 0x7f0d006a;
+        public static final int mr_media_route_controller_disconnect = 0x7f0d006b;
+        public static final int mr_media_route_controller_no_info_available = 0x7f0d006c;
+        public static final int mr_media_route_controller_pause = 0x7f0d006d;
+        public static final int mr_media_route_controller_play = 0x7f0d006e;
+        public static final int mr_media_route_controller_settings_description = 0x7f0d006f;
+        public static final int mr_media_route_controller_stop = 0x7f0d0070;
+        public static final int mr_system_route_name = 0x7f0d0071;
+        public static final int mr_user_route_category_name = 0x7f0d0072;
+        public static final int status_bar_notification_info_overflow = 0x7f0d007a;
     }
     public static final class style {
         private style() {}

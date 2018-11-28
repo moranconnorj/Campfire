@@ -912,6 +912,7 @@ drawable ic_plusone_standard_off_client
 drawable ic_plusone_tall_off_client
 drawable ic_setting_dark
 drawable ic_setting_light
+drawable ic_stat_ic_notification
 drawable mr_ic_cast_dark
 drawable mr_ic_cast_light
 drawable mr_ic_media_route_connecting_mono_dark
@@ -1421,7 +1422,9 @@ string common_signin_button_text_long
 string create_calendar_message
 string create_calendar_title
 string decline
+string default_notification_channel_id
 string default_web_client_id
+string fcm_message
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key

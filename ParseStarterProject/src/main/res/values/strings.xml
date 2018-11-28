@@ -18,4 +18,7 @@
     <string name="title_activity_driver_location">Map</string>
     <string name="login"><u>Login</u></string>
     <string name="signup"><u>Sign Up</u></string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+
 </resources>
