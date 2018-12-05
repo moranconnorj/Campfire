@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-kn-rIN/values-kn-rIN.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-kn-rIN/values-kn-rIN.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,388,507,615,727,853,949,1048,1172,1284,1370",
-                        "endColumns": "105,118,107,111,125,95,98,123,111,85,93",
-                        "endOffsets": "383,502,610,722,848,944,1043,1167,1279,1365,1459"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,161,280,388,500,626,722,821,945,1057,1143",
-                        "endColumns": "105,118,107,111,125,95,98,123,111,85,93",
-                        "endOffsets": "156,275,383,495,621,717,816,940,1052,1138,1232"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,275,395,520,626,717,810,926,1023,1119,1220,1315,1429,1549,1633,1719,1819,1922,2008",
+                        "endColumns": "103,115,119,124,105,90,92,115,96,95,100,94,113,119,83,85,99,102,85,93",
+                        "endOffsets": "154,270,390,515,621,712,805,921,1018,1114,1215,1310,1424,1544,1628,1714,1814,1917,2003,2097"
                     }
                 }
             ]

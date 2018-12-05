@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn-rMN/values-mn-rMN.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-mn-rMN/values-mn-rMN.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-mn-rMN/values-mn-rMN.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,392,511,618,719,844,946,1045,1166,1277,1363",
-                        "endColumns": "109,118,106,100,124,101,98,120,110,85,98",
-                        "endOffsets": "387,506,613,714,839,941,1040,1161,1272,1358,1457"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,284,391,492,617,719,818,939,1050,1136",
-                        "endColumns": "109,118,106,100,124,101,98,120,110,85,98",
-                        "endOffsets": "160,279,386,487,612,714,813,934,1045,1131,1230"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,276,393,505,605,689,785,897,992,1086,1176,1268,1381,1494,1584,1670,1767,1877,1963",
+                        "endColumns": "106,113,116,111,99,83,95,111,94,93,89,91,112,112,89,85,96,109,85,98",
+                        "endOffsets": "157,271,388,500,600,684,780,892,987,1081,1171,1263,1376,1489,1579,1665,1762,1872,1958,2057"
                     }
                 }
             ]

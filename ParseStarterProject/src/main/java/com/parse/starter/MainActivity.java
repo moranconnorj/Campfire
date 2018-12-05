@@ -7,8 +7,12 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 package com.parse.starter;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -34,6 +38,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
+import android.app.IntentService;
+import android.content.Context;
 
 import java.util.List;
 
@@ -176,6 +182,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 }
+
+
+
 
 
 //    ParseObject score = new ParseObject("Score");

@@ -1,4 +1,4 @@
-#Tue Nov 27 15:39:04 PST 2018
+#Tue Dec 04 18:38:12 PST 2018
 base.0=/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/8
 path.0=classes.dex
 renamed.0=classes.dex

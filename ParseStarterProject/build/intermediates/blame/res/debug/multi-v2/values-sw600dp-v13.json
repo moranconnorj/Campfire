@@ -4,6 +4,23 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "611,680",
+                        "endColumns": "68,68",
+                        "endOffsets": "675,744"
+                    }
+                },
+                {
                     "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0.aar/27f9e1de38d08faf1c148292864e8270/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -11,23 +28,6 @@
                         "startOffsets": "55,124,193,263,337,413,472,543",
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-sw600dp/values-sw600dp.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "282",
-                        "endColumns": "72",
-                        "endOffsets": "350"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "611",
-                        "endColumns": "72",
-                        "endOffsets": "679"
                     }
                 }
             ]

@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-kk-rKZ/values-kk-rKZ.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-kk-rKZ/values-kk-rKZ.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,396,509,613,715,840,938,1034,1155,1268,1352",
-                        "endColumns": "113,112,103,101,124,97,95,120,112,83,96",
-                        "endOffsets": "391,504,608,710,835,933,1029,1150,1263,1347,1444"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,282,386,488,613,711,807,928,1041,1125",
-                        "endColumns": "113,112,103,101,124,97,95,120,112,83,96",
-                        "endOffsets": "164,277,381,483,608,706,802,923,1036,1120,1217"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,165,283,403,525,622,719,815,924,1019,1110,1201,1290,1404,1519,1605,1688,1789,1903,1987",
+                        "endColumns": "109,117,119,121,96,96,95,108,94,90,90,88,113,114,85,82,100,113,83,96",
+                        "endOffsets": "160,278,398,520,617,714,810,919,1014,1105,1196,1285,1399,1514,1600,1683,1784,1898,1982,2079"
                     }
                 }
             ]

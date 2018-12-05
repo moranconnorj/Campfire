@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-ka-rGE/values-ka-rGE.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-ka-rGE/values-ka-rGE.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,393,506,621,733,868,964,1060,1186,1296,1383",
-                        "endColumns": "110,112,114,111,134,95,95,125,109,86,99",
-                        "endOffsets": "388,501,616,728,863,959,1055,1181,1291,1378,1478"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,166,279,394,506,641,737,833,959,1069,1156",
-                        "endColumns": "110,112,114,111,134,95,95,125,109,86,99",
-                        "endOffsets": "161,274,389,501,636,732,828,954,1064,1151,1251"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,281,411,526,641,729,828,945,1043,1138,1239,1330,1453,1565,1649,1732,1831,1931,2018",
+                        "endColumns": "107,117,129,114,114,87,98,116,97,94,100,90,122,111,83,82,98,99,86,99",
+                        "endOffsets": "158,276,406,521,636,724,823,940,1038,1133,1234,1325,1448,1560,1644,1727,1826,1926,2013,2113"
                     }
                 }
             ]

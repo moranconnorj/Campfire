@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk-rMK/values-mk-rMK.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-mk-rMK/values-mk-rMK.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-mk-rMK/values-mk-rMK.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,391,506,613,718,845,941,1043,1170,1277,1363",
-                        "endColumns": "108,114,106,104,126,95,101,126,106,85,91",
-                        "endOffsets": "386,501,608,713,840,936,1038,1165,1272,1358,1450"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,279,386,491,618,714,816,943,1050,1136",
-                        "endColumns": "108,114,106,104,126,95,101,126,106,85,91",
-                        "endOffsets": "159,274,381,486,613,709,811,938,1045,1131,1223"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,266,377,487,580,666,764,870,968,1062,1153,1246,1361,1473,1560,1649,1747,1858,1944",
+                        "endColumns": "103,106,110,109,92,85,97,105,97,93,90,92,114,111,86,88,97,110,85,91",
+                        "endOffsets": "154,261,372,482,575,661,759,865,963,1057,1148,1241,1356,1468,1555,1644,1742,1853,1939,2031"
                     }
                 }
             ]

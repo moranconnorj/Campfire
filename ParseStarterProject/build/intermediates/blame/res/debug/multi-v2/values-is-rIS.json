@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-is-rIS/values-is-rIS.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-is-rIS/values-is-rIS.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,391,500,601,704,831,925,1020,1141,1248,1333",
-                        "endColumns": "108,108,100,102,126,93,94,120,106,84,90",
-                        "endOffsets": "386,495,596,699,826,920,1015,1136,1243,1328,1419"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,273,374,477,604,698,793,914,1021,1106",
-                        "endColumns": "108,108,100,102,126,93,94,120,106,84,90",
-                        "endOffsets": "159,268,369,472,599,693,788,909,1016,1101,1192"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,271,383,496,592,677,771,874,969,1063,1157,1249,1364,1475,1557,1639,1734,1837,1922",
+                        "endColumns": "106,108,111,112,95,84,93,102,94,93,93,91,114,110,81,81,94,102,84,90",
+                        "endOffsets": "157,266,378,491,587,672,766,869,964,1058,1152,1244,1359,1470,1552,1634,1729,1832,1917,2008"
                     }
                 }
             ]

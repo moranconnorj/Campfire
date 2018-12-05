@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si-rLK/values-si-rLK.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-si-rLK/values-si-rLK.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-si-rLK/values-si-rLK.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,387,498,606,714,842,939,1040,1161,1272,1359",
-                        "endColumns": "104,110,107,107,127,96,100,120,110,86,91",
-                        "endOffsets": "382,493,601,709,837,934,1035,1156,1267,1354,1446"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,271,379,487,615,712,813,934,1045,1132",
-                        "endColumns": "104,110,107,107,127,96,100,120,110,86,91",
-                        "endOffsets": "155,266,374,482,610,707,808,929,1040,1127,1219"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,268,380,495,586,667,760,858,954,1049,1146,1242,1358,1465,1557,1645,1743,1847,1934",
+                        "endColumns": "100,111,111,114,90,80,92,97,95,94,96,95,115,106,91,87,97,103,86,91",
+                        "endOffsets": "151,263,375,490,581,662,755,853,949,1044,1141,1237,1353,1460,1552,1640,1738,1842,1929,2021"
                     }
                 }
             ]

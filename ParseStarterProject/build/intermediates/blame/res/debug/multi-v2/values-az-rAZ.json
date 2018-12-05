@@ -4,20 +4,13 @@
             "outputFile": "/Users/cindy/Desktop/Connor/ConnorCoding/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az-rAZ/values-az-rAZ.xml",
             "map": [
                 {
-                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/913aab5928e5c6501749c5fb36a8c7ee/res/values-az-rAZ/values-az-rAZ.xml",
+                    "source": "/Users/cindy/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4243ff37595af69bc7c083f07de7cd07/res/values-az-rAZ/values-az-rAZ.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,395,507,605,714,836,937,1033,1158,1263,1349",
-                        "endColumns": "112,111,97,108,121,100,95,124,104,85,94",
-                        "endOffsets": "390,502,600,709,831,932,1028,1153,1258,1344,1439"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,168,280,378,487,609,710,806,931,1036,1122",
-                        "endColumns": "112,111,97,108,121,100,95,124,104,85,94",
-                        "endOffsets": "163,275,373,482,604,705,801,926,1031,1117,1212"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,263,370,487,585,675,774,878,976,1078,1178,1277,1390,1505,1592,1676,1771,1877,1963",
+                        "endColumns": "101,105,106,116,97,89,98,103,97,101,99,98,112,114,86,83,94,105,85,94",
+                        "endOffsets": "152,258,365,482,580,670,769,873,971,1073,1173,1272,1385,1500,1587,1671,1766,1872,1958,2053"
                     }
                 }
             ]
